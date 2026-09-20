@@ -12,9 +12,9 @@ Atividade prática de **dump/restore de PostgreSQL** e **monitoramento de servi�
 │   ├── tomcat/
 │   │   └── index.html                  # página servida pelo Tomcat
 │   └── wildfly/
-│       ├── ROOT.war/
-│       │   └── index.html              # página servida pelo WildFly
-│       └── ROOT.war.dodeploy           # marcador de deploy do WildFly
+│   │   ├── ROOT.war/
+│   │   │   └── index.html              # página servida pelo WildFly
+│   └── ROOT.war.dodeploy           # marcador de deploy do WildFly
 ├── dumps/                              # arquivos de dump gerados
 ├── postgres/
 │   └── init/
