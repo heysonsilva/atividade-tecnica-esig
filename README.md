@@ -44,6 +44,13 @@ python --version
 
 ---
 
+## Diagrama de Funcionamento
+
+<img width="1701" height="974" alt="deepseek_mermaid_20260920_9ea0c6" src="https://github.com/user-attachments/assets/571ac038-3093-4ba8-860b-8f77d01b3c4d" />
+
+
+---
+
 ## 🚀 Como executar
 
 ### 1. Subir os serviços
