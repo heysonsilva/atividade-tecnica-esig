@@ -5,7 +5,7 @@ from pathlib import Path
 CONTAINER  = "pg_database"
 DB_USER    = "admin"
 DB_NAME    = "esig_db"
-PASTA_DUMP = Path("dumps")
+PASTA_DUMP = Path(__file__).parent.parent / "dumps"
 
 dumps = sorted(PASTA_DUMP.glob("*.dump"))
 ultimo_dump = dumps[-1]

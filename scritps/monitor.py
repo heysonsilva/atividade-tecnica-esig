@@ -20,6 +20,7 @@ while True:
 # tomcat
 
     resultado = subprocess.run(["curl", "-s", "-o", "NUL", "-w", "%{http_code}", url_tomcat], capture_output=True, text=True)
+
     codigo = resultado.stdout.strip()
 
     if codigo != "000" and codigo != "":
@@ -98,4 +99,4 @@ while True:
             subprocess.run(["docker", "restart", container_wildfly], check=True)
             wildfly_parado_desde = None
 
-    time.sleep(10)
+    time.sleep(5)
